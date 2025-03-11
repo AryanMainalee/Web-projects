@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Moon+Dance&family=Noto+Sans+Hatran&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TO DO LIST</h1>
+        <div class="input-container">
+            <input type="text" name="entered_task" id="entered_task" placeholder="Enter your task here">
+            <button id="add_task" onclick="addTask()" style="width: 85px; height: 41.6px;">Add Task</button>
+        </div>
+        <ul id="task_list" class="task_list">
+            <!-- <li>Task 1 <span><button>Edit</button><button>Delete</button></span></li>
+            <li>Task 2 <span><button>Edit</button><button>Delete</button></span></li>
+            <li>Task 3 <span><button>Edit</button><button>Delete</button></span></li> -->
+        </ul>
+    </div>
+</body>
+</html>
